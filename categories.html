@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8"> <!-- Кодировка страницы -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Главная страница</title> <!-- Заголовок -->
+    <link href="css/bootstrap.min.css"
+          rel="stylesheet" />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css">
+    <!-- Подключение Bootstrap Icons -->
+</head>
+<body> <!-- Тело страницы -->
+<!--<h1>Hello, world!</h1> &lt;!&ndash; Заголовок на странице &ndash;&gt;-->
+<div class="row">
+    <div class="col-3 bg-dark text-light" style="position: relative; height: 100vh;">
+        <h5 class="mt-2 ms-3">
+            <i class="bi bi-bootstrap-fill"> </i>Меню</h5>
+                <ul class="nav flex-column bg-dark text-light">
+                    <li class="nav-item">
+                        <a class="nav-link text-light mt-3"
+                           href="file:///C:/Users/aleks/PythonProject/Home_Work_the_basics_of_layout/home.html#">
+                            <i class="bi bi-house"> </i>Главная
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light active bg-primary"
+                           href="C:\Users\aleks\PythonProject\Home_Work_the_basics_of_layout\categories.html">
+                            <i class="bi bi-card-list"> </i>Категория</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light"
+                           href="C:\Users\aleks\PythonProject\Home_Work_the_basics_of_layout\orders.html">
+                            <i class="bi bi-box"> </i>Заказы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light"
+                           href="C:\Users\aleks\PythonProject\Home_Work_the_basics_of_layout\contacts.html">
+                            <i class="bi bi-person-lines-fill"> </i>Контакты</a>
+                    </li>
+                </ul>
+        <div class="dropdown" style="position: absolute; bottom: 0;">
+            <button class="btn btn-secondary dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Пользователь
+            </button>
+            <ul class="dropdown-menu w-100" style="position: absolute; bottom: 0;">
+                <li><a class="dropdown-item" href="#">Профиль</a></li>
+                <li><a class="dropdown-item" href="#">Выход</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-9 mt-5 text-center">
+        <h2>Каталог</h2>
+        <div class="row mt-3">
+            <div class="col-6 d-flex justify-content-center">
+                <div class="card text-start mb-3" style="width: 18rem;">
+                    <img src="path/to/image.jpg" alt="Thumbnail" class="card-img-top text-center">
+                    <div class="card-body">
+                        <p class="card-text">10 users included, 2 GB of storage, Email support, Help center access</p>
+                        <a href="#" class="btn btn-primary">View</a>
+                        <a href="#" class="btn btn-primary">Edit</a>
+                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 d-flex justify-content-center">
+                <div class="card text-start mb-3" style="width: 18rem;">
+                    <img src="path/to/image.jpg" alt="Thumbnail" class="card-img-top text-center">
+                    <div class="card-body">
+                        <p class="card-text">10 users included, 2 GB of storage, Email support, Help center access</p>
+                        <a href="#" class="btn btn-primary">View</a>
+                        <a href="#" class="btn btn-primary">Edit</a>
+                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-6 d-flex justify-content-center">
+                <div class="card text-start mb-3" style="width: 18rem;">
+                    <img src="path/to/image.jpg" alt="Thumbnail" class="card-img-top text-center">
+                    <div class="card-body">
+                        <p class="card-text">10 users included, 2 GB of storage, Email support, Help center access</p>
+                        <a href="#" class="btn btn-primary">View</a>
+                        <a href="#" class="btn btn-primary">Edit</a>
+                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 d-flex justify-content-center">
+                <div class="card text-start mb-3" style="width: 18rem;">
+                    <img src="path/to/image.jpg" alt="Thumbnail" class="card-img-top text-center">
+                    <div class="card-body">
+                        <p class="card-text">10 users included, 2 GB of storage, Email support, Help center access</p>
+                        <a href="#" class="btn btn-primary">View</a>
+                        <a href="#" class="btn btn-primary">Edit</a>
+                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js">
+</script>
+</body>
+</html>
