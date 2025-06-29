@@ -1,5 +1,6 @@
 from http.server import SimpleHTTPRequestHandler, HTTPServer
 
+
 class MyHandler(SimpleHTTPRequestHandler):
     def do_GET(self):
         # Здесь можно обрабатывать GET-запросы
